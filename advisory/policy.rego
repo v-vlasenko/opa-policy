@@ -1,5 +1,5 @@
 package terraform 
 
-deny["Always failed advisory failed policy for auto testing"] {
+deny["Always advisory failed policy for auto testing"] {
     true
 }

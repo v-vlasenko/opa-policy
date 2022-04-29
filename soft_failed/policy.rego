@@ -1,5 +1,5 @@
 package terraform 
 
-deny["Always failed soft failed policy for auto testing"] {
+deny["Always soft failed policy for auto testing"] {
     true
 }
