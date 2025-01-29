@@ -1,7 +1,5 @@
 package terraform 
 
-import rego.v1
-
-deny["Always passed policy for auto testing"] if {
+deny["Always passed policy for auto testing"] {
     false
 }
