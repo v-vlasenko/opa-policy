@@ -1,5 +1,8 @@
-package terraform 
+package terraform
 
-deny["Always passed policy for auto testing"] {
+default deny = []
+
+deny contains msg if {
+    msg = "Always passed policy for auto testing"
     false
 }
